@@ -1,0 +1,113 @@
+body, html{
+    height:100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:white;
+    padding-left: 60px;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+    color: white;
+    
+}
+
+nav ul{
+    background-color: black;
+    margin:0;
+    list-style-type:none;
+    width:fit-content;
+    padding: 20px;
+}
+
+.nav-bar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: black;
+}
+
+
+.theater-image{
+    background-image:url("../images/theater-image-background.png");
+    height:60%;
+}
+.theater-image-text-container{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+    font-size: 55px;
+    
+}
+
+.april-container{
+    border: 2px solid black;
+    background-color: lightgray;
+    display: flex;
+    justify-content: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:10px;
+}
+
+.raisin-container-1,.raisin-container-2,.raisin-container-3,.raisin-container-4{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom:10px;
+    padding-top:25px;
+    line-height: 2;
+}
+
+.image-item-1{
+    min-height: 100px; 
+    
+}
+
+.text-item-2{
+    text-align:left;
+    padding-left:40px;
+    margin-top: -70px;
+}
+
+.button-item-3{
+   padding-right: 100px;
+  
+}
+
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.button{
+    background-color: purple;
+    border: solid black;
+    color:white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.footer-container{
+    background-color: black;
+}
+
+#map{
+    width:500px;
+    height:300px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
